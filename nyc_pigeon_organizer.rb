@@ -2,8 +2,8 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   newhash = Hash.new
   data.each do |key, description|
-    description.each do |secondkey, name|
-      name.each do |names|
+    description.each do |secondkey, names|
+      name.each do |name|
       if !newhash[name]
         newhash[name] = {}
       end
