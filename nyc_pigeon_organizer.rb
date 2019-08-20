@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
         newhash[name] = {}
       end
       
-      if !newhash[key]
-        newhash[key] = {}
+      if !newhash[name][key]
+        newhash[name][key] = {}
       end
 end
